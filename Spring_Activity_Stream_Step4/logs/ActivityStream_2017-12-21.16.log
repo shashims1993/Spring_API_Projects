@@ -1,0 +1,161 @@
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property tag with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserTag:tag]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for tag
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property tag
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userTag), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserTag:username]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for createdDate
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for creatorId
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for messageId
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for message
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for postedDate
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for receiverId
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for senderName
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for streamType
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for tag
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for password
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for userCircleId
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for userTagId
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for tag
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [circlename] to be non-null as it is part of the primary key for table [circle]
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [messageid] to be non-null as it is part of the primary key for table [message]
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [username] to be non-null as it is part of the primary key for table [user]
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [usercircleid] to be non-null as it is part of the primary key for table [usercircle]
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [usertagid] to be non-null as it is part of the primary key for table [usertag]
+2017-12-21 19:55:02 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JPA query language strict compliance: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@25b865b5
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: ON_CLOSE
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2017-12-21 19:55:03 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2017-12-21 19:55:03 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=gnome, awt.toolkit=sun.awt.X11.XToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/home/superuser/Java/Spring Projects/Step4/target/test-classes:/home/superuser/Java/Spring Projects/Step4/target/classes:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-jdbc.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/jasper-el.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-i18n-fr.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/jasper.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/catalina-ant.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-i18n-es.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/annotations-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/catalina.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/el-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-websocket.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-coyote.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-util.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/catalina-storeconfig.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/catalina-ha.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/ecj-4.6.3.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/jaspic-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-i18n-ja.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-jni.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/catalina-tribes.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/jsp-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-util-scan.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/websocket-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/servlet-api.jar:/home/superuser/Downloads/apache-tomcat-9.0.1/lib/tomcat-dbcp.jar:/home/superuser/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/superuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/superuser/.m2/repository/org/hibernate/hibernate-entitymanager/5.2.10.Final/hibernate-entitymanager-5.2.10.Final.jar:/home/superuser/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/superuser/.m2/repository/org/hibernate/hibernate-core/5.2.10.Final/hibernate-core-5.2.10.Final.jar:/home/superuser/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/superuser/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/superuser/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/superuser/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/superuser/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/superuser/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/superuser/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/superuser/.m2/repository/net/bytebuddy/byte-buddy/1.6.6/byte-buddy-1.6.6.jar:/home/superuser/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/superuser/.m2/repository/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-orm/4.3.10.RELEASE/spring-orm-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-jdbc/4.3.10.RELEASE/spring-jdbc-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/home/superuser/.m2/repository/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar:/home/superuser/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar:/home/superuser/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/superuser/.m2/repository/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar:/home/superuser/.m2/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar:/home/superuser/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1.jar:/home/superuser/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/superuser/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.jar:/home/superuser/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/home/superuser/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/home/superuser/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/superuser/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar:/home/superuser/.m2/repository/org/mockito/mockito-all/1.8.4/mockito-all-1.8.4.jar:/home/superuser/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/home/superuser/.m2/repository/com/jayway/jsonpath/json-path-assert/2.4.0/json-path-assert-2.4.0.jar:/home/superuser/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/superuser/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/superuser/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/superuser/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/superuser/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/superuser/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar:/home/superuser/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/superuser/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/superuser/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/superuser/Downloads/sts-bundle/sts-3.9.1.RELEASE/configuration/org.eclipse.osgi/304/0/.cp:/home/superuser/Downloads/sts-bundle/sts-3.9.1.RELEASE/configuration/org.eclipse.osgi/303/0/.cp, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Kolkata, os.name=Linux, java.vm.specification.version=1.8, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 46165 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -testNameFile /tmp/testNames2180430753984348737.txt, sun.cpu.endian=little, user.home=/home/superuser, user.language=en, java.specification.vendor=Oracle Corporation, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, file.separator=/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, hibernate.hbm2ddl.auto=update, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12, user.name=superuser, path.separator=:, os.version=4.10.0-40-generic, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, hibernate.classLoaders=[sun.misc.Launcher$AppClassLoader@52cc8049], hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/tmp, java.version=1.8.0_151, user.dir=/home/superuser/Java/Spring Projects/Step4, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@529cfee5, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.151-b12, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=org.apache.commons.dbcp2.BasicDataSource@75d2da2d, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+2017-12-21 19:55:03 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2017-12-21 19:55:03 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Circle] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Circle
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Circle] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Circle
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Message] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Message
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Message] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Message
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.UserCircle] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.UserCircle
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.UserCircle] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.UserCircle
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.UserTag] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.UserTag
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.UserTag] is safe
+2017-12-21 19:55:03 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.UserTag
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.stackroute.activitystream.model.Circle
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select circleName from circle where circleName =?
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select circle_.circleName, circle_.createdDate as createdD2_0_, circle_.creatorId as creatorI3_0_ from circle circle_ where circle_.circleName=?
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into circle (createdDate, creatorId, circleName) values (?, ?, ?)
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update circle set createdDate=?, creatorId=? where circleName=?
+2017-12-21 19:55:03 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from circle where circleName=?
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33f98231]
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circleNa1_0_0_}
+
+2017-12-21 19:55:03 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [NONE]: select circle0_.circleName as circleNa1_0_0_, circle0_.createdDate as createdD2_0_0_, circle0_.creatorId as creatorI3_0_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e008f36]
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circleNa1_0_0_}
+
+2017-12-21 19:55:03 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [READ]: select circle0_.circleName as circleNa1_0_0_, circle0_.createdDate as createdD2_0_0_, circle0_.creatorId as creatorI3_0_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3cae7b8b]
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circleNa1_0_0_}
+
+2017-12-21 19:55:03 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [UPGRADE]: select circle0_.circleName as circleNa1_0_0_, circle0_.createdDate as createdD2_0_0_, circle0_.creatorId as creatorI3_0_0_ from circle circle0_ where circle0_.circleName=? for update
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2aeefcc]
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2017-12-21 19:55:03 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2017-12-21 19:55:03 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circleNa1_0_0_}
+
+2017-12-21 19:55:03 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [UPGRADE_NOWAIT]: select circle0_.circleName as circleNa1_0_0_, circle0_.createdDate as createdD2_0_0_, circle0_.creatorId as creatorI3_0_0_ from circle circle0_ where circle0_.circleName=? for update

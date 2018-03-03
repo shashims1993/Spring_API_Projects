@@ -1,0 +1,134 @@
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: john, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: will, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:52:12 [main] INFO  c.s.a.aspect.DAOLoggingAspect - ============@Before==========
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - Method Name : validate
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - *********************************
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=? and user0_.password=?
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:52:12 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:52:12 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:52:12 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=? and user0_.password=?
+2017-12-21 19:52:12 [main] INFO  c.s.a.aspect.DAOLoggingAspect - ============@After==========
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - Method Name : validate
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - Method arguments : [john, password2]
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - *********************************
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - ============@AfterReturning==========
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - Method Name : validate
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - Method arguments : [john, password2]
+2017-12-21 19:52:12 [main] DEBUG c.s.a.aspect.DAOLoggingAspect - *********************************
+2017-12-21 19:52:12 [main] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+2017-12-21 19:52:12 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2017-12-21 19:52:12 [Thread-1] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+2017-12-21 19:52:12 [Thread-1] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2017-12-21 19:52:12 [Thread-1] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2017-12-21 19:53:55 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-12-21 19:53:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-12-21 19:53:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2017-12-21 19:53:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2017-12-21 19:53:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.10.Final}
+2017-12-21 19:53:55 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.cfg.Configuration - Building session factory using internal StandardServiceRegistryBuilder
+2017-12-21 19:53:55 [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.cfg.Configuration - Building session factory using provided StandardServiceRegistry
+2017-12-21 19:53:55 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2017-12-21 19:53:55 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@57fd91c9
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@57fd91c9
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@57fd91c9
+2017-12-21 19:53:55 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@565b064f

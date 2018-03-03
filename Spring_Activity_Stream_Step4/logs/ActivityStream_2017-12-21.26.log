@@ -1,0 +1,1127 @@
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+2017-12-21 19:55:05 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: john, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: will, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: chris, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Chris, username=chris}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Chris, username=chris}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#chris]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Chris, username=chris}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#chris]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Chris, username=chris}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+2017-12-21 19:55:05 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: john, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: will, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from com.stackroute.activitystream.model.User
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[IDENT] Node: 'com'
+                |  |  |  \-[IDENT] Node: 'stackroute'
+                |  |  \-[IDENT] Node: 'activitystream'
+                |  \-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'User'
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.stackroute.activitystream.model.User (<no alias>) -> user0_
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} user user0_ ) )
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [user user0_]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.username as username1_2_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.stackroute.activitystream.model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name2_2_, user0_.password as password3_2_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.stackroute.activitystream.model.User}}
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from com.stackroute.activitystream.model.User
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#shashi]
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.User#shashi]
+2017-12-21 19:55:05 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.User#shashi]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=shashi, name=shashi, username=shashi}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+2017-12-21 19:55:05 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: john, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: will, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: Java, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into circle (createdDate, creatorId, circleName) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from com.stackroute.activitystream.model.UserCircle where username= 'john' and circleName= 'Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'com'
+    |           |  |  |  \-[IDENT] Node: 'stackroute'
+    |           |  |  \-[IDENT] Node: 'activitystream'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'UserCircle'
+    \-[WHERE] Node: 'where'
+       \-[AND] Node: 'and'
+          +-[EQ] Node: '='
+          |  +-[IDENT] Node: 'username'
+          |  \-[QUOTED_STRING] Node: ''john''
+          \-[EQ] Node: '='
+             +-[IDENT] Node: 'circleName'
+             \-[QUOTED_STRING] Node: ''Java''
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.stackroute.activitystream.model.UserCircle (<no alias>) -> usercircle0_
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : username -> org.hibernate.type.StringType@72a85671
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.username -> usercircle0_.username
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : circleName -> org.hibernate.type.StringType@72a85671
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.circleName -> usercircle0_.circleName
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} userCircle usercircle0_ ) ( where ( and ( = ( usercircle0_.username {synthetic-alias} username ) 'john' ) ( = ( usercircle0_.circleName {synthetic-alias} circleName ) 'Java' ) ) ) )
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [userCircle usercircle0_]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (userCircle)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'usercircle0_.userCircleId as userCirc1_3_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=userCircle,tableAlias=usercircle0_,origin=null,columns={,className=com.stackroute.activitystream.model.UserCircle}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[usercircle0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'userCircle usercircle0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=userCircle,tableAlias=usercircle0_,origin=null,columns={,className=com.stackroute.activitystream.model.UserCircle}}
+    \-[WHERE] SqlNode: 'where'
+       \-[AND] SqlNode: 'and'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'usercircle0_.username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path={synthetic-alias}.username,tableAlias=usercircle0_,className=com.stackroute.activitystream.model.UserCircle,classAlias=null}
+          |  |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          |  \-[QUOTED_STRING] LiteralNode: ''john''
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'usercircle0_.circleName' {propertyName=circleName,dereferenceType=PRIMITIVE,getPropertyPath=circleName,path={synthetic-alias}.circleName,tableAlias=usercircle0_,className=com.stackroute.activitystream.model.UserCircle,classAlias=null}
+             |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+             |  \-[IDENT] IdentNode: 'circleName' {originalText=circleName}
+             \-[QUOTED_STRING] LiteralNode: ''Java''
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from com.stackroute.activitystream.model.UserCircle where username= 'john' and circleName= 'Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='john' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='john' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 238, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into userCircle (circleName, username, userCircleId) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from com.stackroute.activitystream.model.UserCircle where username= 'will' and circleName= 'Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'com'
+    |           |  |  |  \-[IDENT] Node: 'stackroute'
+    |           |  |  \-[IDENT] Node: 'activitystream'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'UserCircle'
+    \-[WHERE] Node: 'where'
+       \-[AND] Node: 'and'
+          +-[EQ] Node: '='
+          |  +-[IDENT] Node: 'username'
+          |  \-[QUOTED_STRING] Node: ''will''
+          \-[EQ] Node: '='
+             +-[IDENT] Node: 'circleName'
+             \-[QUOTED_STRING] Node: ''Java''
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.stackroute.activitystream.model.UserCircle (<no alias>) -> usercircle0_
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : username -> org.hibernate.type.StringType@72a85671
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.username -> usercircle0_.username
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : circleName -> org.hibernate.type.StringType@72a85671
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.circleName -> usercircle0_.circleName
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} userCircle usercircle0_ ) ( where ( and ( = ( usercircle0_.username {synthetic-alias} username ) 'will' ) ( = ( usercircle0_.circleName {synthetic-alias} circleName ) 'Java' ) ) ) )
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [userCircle usercircle0_]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (userCircle)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'usercircle0_.userCircleId as userCirc1_3_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=userCircle,tableAlias=usercircle0_,origin=null,columns={,className=com.stackroute.activitystream.model.UserCircle}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[usercircle0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'userCircle usercircle0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=userCircle,tableAlias=usercircle0_,origin=null,columns={,className=com.stackroute.activitystream.model.UserCircle}}
+    \-[WHERE] SqlNode: 'where'
+       \-[AND] SqlNode: 'and'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'usercircle0_.username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path={synthetic-alias}.username,tableAlias=usercircle0_,className=com.stackroute.activitystream.model.UserCircle,classAlias=null}
+          |  |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          |  \-[QUOTED_STRING] LiteralNode: ''will''
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'usercircle0_.circleName' {propertyName=circleName,dereferenceType=PRIMITIVE,getPropertyPath=circleName,path={synthetic-alias}.circleName,tableAlias=usercircle0_,className=com.stackroute.activitystream.model.UserCircle,classAlias=null}
+             |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+             |  \-[IDENT] IdentNode: 'circleName' {originalText=circleName}
+             \-[QUOTED_STRING] LiteralNode: ''Java''
+
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from com.stackroute.activitystream.model.UserCircle where username= 'will' and circleName= 'Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='will' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='will' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 239, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into userCircle (circleName, username, userCircleId) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 240, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into message (circleName, message, postedDate, receiverId, senderName, streamType, tag, messageId) values (?, ?, ?, ?, ?, ?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 6 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from user where username=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.681, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from circle where circleName=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='john' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.UserCircle#238]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='john' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.UserCircle#238]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=238, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from userCircle where userCircleId=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='will' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.UserCircle#239]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='will' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.UserCircle#239]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Message{senderName=john, receiverId=null, streamType=text, messageId=240, tag=null, message=Sample Message, circleName=Java, postedDate=2017-12-21 19:55:05.806}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=239, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - delete from userCircle where userCircleId=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+2017-12-21 19:55:05 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2017-12-21 19:55:05 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: john, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: will, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into user (name, password, username) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: Java, using strategy: org.hibernate.id.Assigned
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into circle (createdDate, creatorId, circleName) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='john' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 241, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into userCircle (circleName, username, userCircleId) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select circle0_.circleName as circleNa1_0_, circle0_.createdDate as createdD2_0_, circle0_.creatorId as creatorI3_0_ from circle circle0_ where circle0_.circleName=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#Java]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#will]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select usercircle0_.userCircleId as userCirc1_3_, usercircle0_.circleName as circleNa2_3_, usercircle0_.username as username3_3_ from userCircle usercircle0_ where usercircle0_.username='will' and usercircle0_.circleName='Java'
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 242, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=242, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - insert into userCircle (circleName, username, userCircleId) values (?, ?, ?)
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=242, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=242, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.SQL - select user0_.username as username1_2_, user0_.name as name2_2_, user0_.password as password3_2_ from user user0_ where user0_.username=?
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2017-12-21 19:55:05 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.User#john]
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2017-12-21 19:55:05 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=241, circleName=Java, username=john}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=Will, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.Circle{createdDate=2017-12-21 19:55:05.878, creatorId=John, circleName=Java}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.UserCircle{userCircleId=242, circleName=Java, username=will}
+2017-12-21 19:55:05 [main] DEBUG o.h.internal.util.EntityPrinter - com.stackroute.activitystream.model.User{password=password, name=John, username=john}

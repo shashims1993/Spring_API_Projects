@@ -1,0 +1,128 @@
+2017-12-21 19:55:02 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2017-12-21 19:55:02 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-12-21 19:55:02 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.Circle
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Circle
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.Circle on table circle
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=circleName, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property circleName with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:circleName]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property circleName
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=createdDate, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property createdDate with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:createdDate]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for createdDate
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property createdDate
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=creatorId, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property creatorId with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:creatorId]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for creatorId
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property creatorId
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.Message
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Message
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.Message on table message
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=messageId, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property messageId with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:messageId]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for messageId
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property messageId
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=circleName, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property circleName with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:circleName]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property circleName
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=message, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property message with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:message]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for message
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property message
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=postedDate, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property postedDate with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:postedDate]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for postedDate
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property postedDate
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=receiverId, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property receiverId with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:receiverId]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for receiverId
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property receiverId
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=senderName, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property senderName with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:senderName]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for senderName
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property senderName
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=streamType, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property streamType with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:streamType]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for streamType
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property streamType
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(message), mappingColumn=tag, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property tag with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Message:tag]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for tag
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property tag
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.User
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name User
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.User on table user
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:username]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:name]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property password with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:password]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for password
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property password
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.UserCircle
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name UserCircle
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.UserCircle on table userCircle
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userCircle), mappingColumn=userCircleId, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property userCircleId with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserCircle:userCircleId]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for userCircleId
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property userCircleId
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userCircle), mappingColumn=circleName, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property circleName with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserCircle:circleName]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for circleName
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property circleName
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userCircle), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserCircle:username]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.UserTag
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name UserTag
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.UserTag on table userTag
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userTag), mappingColumn=userTagId, insertable=true, updatable=true, unique=false}
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property userTagId with lazy=false
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserTag:userTagId]
+2017-12-21 19:55:02 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for userTagId
+2017-12-21 19:55:02 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property userTagId
+2017-12-21 19:55:02 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(userTag), mappingColumn=tag, insertable=true, updatable=true, unique=false}

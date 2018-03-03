@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	 <!-- project coordinates -->
+        <groupId>com.stackroute.activitystream</groupId>
+        <artifactId>ActivityStream_step7-solution</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <packaging>pom</packaging>
+
+        <modules>
+				<module>step7-authenticationservice-solution</module>
+				<module>step7-userservice-solution</module>
+				<module>step7-circleservice-solution</module>
+			    <module>step7-usercircleservice-solution</module>	
+                <module>step7-messageservice-solution</module>
+ 
+        </modules>
+</project>
